@@ -44,9 +44,11 @@ poetry self update
 
 This project is set up to publish to [PyPI](https://pypi.org/) from GitHub Actions.
 
-Thanks to the dynamic versioning plugin and `publish.yml` workflow, you can simply
-create tagged releases on GitHub and the tag will trigger a release build, which then
-uploads it to PyPI.
+Thanks to [the dynamic versioning
+plugin](https://github.com/mtkennerly/poetry-dynamic-versioning) and `publish.yml`
+workflow, you can simply create tagged releases (using standard format for the tag name,
+e.g. `v0.1.0`) on GitHub and the tag will trigger a release build, which then uploads it
+to PyPI.
 
 For this to work you will need to have a PyPI account and authorize your repository to
 publish to PyPI. The simplest way to do that is on [the publishing settings
