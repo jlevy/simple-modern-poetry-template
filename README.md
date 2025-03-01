@@ -37,8 +37,8 @@ apt install pipx
 Now you can install a current Python and Poetry:
 
 ```shell
-pyenv install 3.12.9  # Pick the version you want.
-pipx install poetry
+pyenv install 3.13.2  # Pick the version you want.
+pipx install poetry  # Or use `pipx upgrade poetry` if you've done this before.
 ```
 
 For Windows or other platforms, see the pyenv and poetry instructions. 
